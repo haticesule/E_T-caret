@@ -37,12 +37,10 @@ const Home = () => {
         icon="makina_1.png"
         id="about"
       />
-      <ContentBlock
-        type="right"
+       <MiddleBlock
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
+        button={MiddleBlockContent.button}
       />
       <ContentBlock
         type="left"

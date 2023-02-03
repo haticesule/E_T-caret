@@ -52,31 +52,13 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Large to="/">{t("")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(``)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:haticesuleakinn@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
             </Col>
           </Row>
           <Row justify="space-between">
@@ -86,21 +68,6 @@ const Footer = ({ t }: any) => {
               <Para>Nine Hatun Mahallesi</Para>
               <Para>Pasinler Caddesi No: 5B</Para>
               <Para>Esenler / İstanbul</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
@@ -145,20 +112,12 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
                 href="https://twitter.com/Adrinlolx"
                 src="twitter.svg"
               />
               <SocialLink
                 href="https://www.linkedin.com/in/lasha-kakabadze/"
                 src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
               />
             </FooterContainer>
           </Row>
