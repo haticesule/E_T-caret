@@ -112,11 +112,11 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://z-p15.www.instagram.com/akintekstil1/"
                 src="twitter.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/ak%C4%B1n-tekstil-777b43264/"
                 src="linkedin.svg"
               />
             </FooterContainer>
